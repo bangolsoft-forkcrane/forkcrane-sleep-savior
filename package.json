@@ -16,6 +16,7 @@
   "devDependencies": {
     "@slack/web-api": "^6.8.0",
     "axios": "^1.2.2",
+    "dotenv": "^16.0.3",
     "moment": "^2.29.4",
     "node-cron": "^3.0.2",
     "pg": "^8.8.0"

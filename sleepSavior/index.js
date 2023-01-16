@@ -1,7 +1,7 @@
+require('dotenv').config();
 const { WebClient } = require('@slack/web-api');
 
-// Initialize a new WebClient with your bot token
-const web = new WebClient("xoxb-3912921742950-4648961863476-ugpcaSFnYfV4jVOKbZ2IDqt3");
+const web = new WebClient(process.env.slackToken);
 const channel = '#sleep-savior'
 
 // Send message to a channel
